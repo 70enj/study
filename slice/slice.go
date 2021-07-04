@@ -1,4 +1,4 @@
-package main
+package slice
 
 //Push is 最後に追加
 func Push(slice []int, number int) []int {
