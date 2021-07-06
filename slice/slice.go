@@ -10,9 +10,14 @@ func Pop(slice []int) ([]int, int) {
 	return slice[:len(slice)-1], slice[len(slice)-1]
 }
 
-//Enq is 最初に追加
-func Enq(slice []int, number int) []int {
+//AddFirst is 最初に追加
+func AddFirst(slice []int, number int) []int {
 	return append([]int{number}, slice...)
+}
+
+//Enq is 最後に追加
+func Enq(slice []int, number int) []int {
+	return append(slice, number)
 }
 
 //Deq is 最初を削除
