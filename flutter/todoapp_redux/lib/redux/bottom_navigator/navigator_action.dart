@@ -1,4 +1,4 @@
 class SetBottomNavigatorNumAction {
   final int navigation;
-  const SetBottomNavigatorNumAction({required this.navigation});
+  SetBottomNavigatorNumAction({required this.navigation});
 }

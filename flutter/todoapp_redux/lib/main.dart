@@ -1,7 +1,5 @@
-// ignore_for_file: import_of_legacy_library_into_null_safe
-
 import 'package:flutter/material.dart';
-import 'package:flutter_redux_hooks/flutter_redux_hooks.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 import './page/todo_page.dart';
 import './redux/store.dart';

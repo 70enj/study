@@ -1,5 +1,3 @@
-// ignore_for_file: import_of_legacy_library_into_null_safe
-
 import 'package:redux/redux.dart';
 import '../../model/todo.dart';
 import './todo_action.dart';

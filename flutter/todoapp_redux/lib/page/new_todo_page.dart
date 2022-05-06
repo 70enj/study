@@ -1,12 +1,9 @@
-// ignore_for_file: import_of_legacy_library_into_null_safe
-
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:flutter_redux_hooks/flutter_redux_hooks.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 import 'package:todoapp/redux/app_state.dart';
 import '../redux/todo/todo_action.dart';
 
-class NewTodoPage extends HookWidget {
+class NewTodoPage extends StatelessWidget {
   const NewTodoPage({Key? key}) : super(key: key);
 
   @override

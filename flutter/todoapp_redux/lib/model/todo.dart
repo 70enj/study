@@ -6,12 +6,7 @@ class TodoContent {
   late TodoStatus state;
 
   TodoContent({required this.title, required this.content, TodoStatus? state}) {
-    if (state == null) {
-      this.state = TodoStatus.to;
-      return;
-    }
-    // ignore: prefer_initializing_formals
-    this.state = state;
+    this.state = state ?? TodoStatus.to;
   }
 
   void setTo() {
