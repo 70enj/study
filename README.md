@@ -5,7 +5,7 @@
 | -- | -- |
 | helloapp | flutterのhello,world |
 | todoapp | todoアプリ(多分1週間ぐらいでできるFlutter入門) |
-| todoapp_redux | state管理にreduxを用いたtodoアプリ(多分1週間ぐらいでできるFlutter入門, reduxがnull-safety未対応のためコンパイル不可) |
+| todoapp_redux | flutter_redux使用,リファクタリング必要 |
 
 ## go
 | 名前 | 概要 |
