@@ -1,6 +1,10 @@
 package uniList
 
-import "fmt"
+//単方向連結リスト
+
+import (
+	"fmt"
+)
 
 // Element is structure.
 type Element struct {
@@ -33,26 +37,8 @@ func (e *Element) AppendToTailList(l *Element) {
 }
 
 // DisplayList is method.
-func (e *Element) DisplayList() {
+func (e *Element) DisplayListString() {
 	for e != nil {
-		fmt.Print(e, " ")
-		e = e.Next
-	}
-	fmt.Println()
-}
-
-// DisplayListData is method.
-func (e *Element) DisplayListData() {
-	for e != nil {
-		fmt.Print(e.Data, " ")
-		e = e.Next
-	}
-	fmt.Println()
-}
-
-// DisplayList10Datas is method.
-func (e *Element) DisplayList10Datas() {
-	for i := 0; i < 10 && e != nil; i++ {
 		fmt.Print(e, " ")
 		e = e.Next
 	}
@@ -63,5 +49,5 @@ func (e *Element) DisplayList10Datas() {
 	e := new(Element)
 	e.Node(1)
 	e.AppendToTail(2)
-	displayList(e)
+	e.DisplayList()
 }*/
